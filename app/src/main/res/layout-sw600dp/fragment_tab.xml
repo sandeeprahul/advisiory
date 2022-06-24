@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="14dp"
+    android:background="@color/white"
+    tools:context=".ui.result.TabFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="6dp"
+        android:paddingStart="15dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="10dp"
+        android:text="Abcn\nsdhfj\nsdhfkjdskh"
+        android:textColor="#555555"
+        android:textSize="20sp" />
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="20dp"
+        android:text="Test Center"/>-->
+
+
+    <com.anychart.AnyChartView
+        android:id="@+id/polarChart"
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:layout_margin="3dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_rect_bg"
+        android:padding="3dp"
+        />
+
+</LinearLayout>

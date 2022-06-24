@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".ui.imageResult.AnalyzeImageResultActivity">
+
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <com.github.mikephil.charting.charts.HorizontalBarChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_above="@+id/btnRecommendedProducts"
+        android:layout_margin="3dp"
+        android:visibility="visible"
+        android:background="@drawable/rounded_rect_bg"
+        android:padding="3dp" />
+
+
+    <com.anychart.AnyChartView
+        android:id="@+id/polarChart"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:visibility="gone"/>
+
+
+
+    <Button
+        android:id="@+id/btnRecommendedProducts"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_orange"
+        android:text="Get Recommended Products"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_size" />
+
+    <RelativeLayout
+        android:id="@+id/rlApiResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvApiResponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <!-- <Button
+             android:id="@+id/btnRecommendedProducts"
+             android:layout_width="match_parent"
+             android:layout_height="55dp"
+             android:background="@drawable/bg_orange"
+             android:text="Get Recommended Products"
+             android:textColor="@color/white"
+             android:textSize="@dimen/tablet_button_size" />-->
+    </RelativeLayout>
+
+</RelativeLayout>

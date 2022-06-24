@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+   display: flex;
+  flex-wrap: wrap;
+  align-content:center;
+
+}
+
+img.displayed {
+    display: block;
+    margin-right: 10px
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #FFF;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+    
+    </style>
+</head>
+<body>
+
+<p>For the most accurate results, take the picture with:</p>
+<p>A good selfie is key in receiving the best possible skincare advice and products. Learn how to
+    take a good selfie below.</p>
+
+<div class="row">
+    <div class="column" style="background-color:#FFF;">
+        <img width="60" height="60" src="file:///android_asset/natural_lighting.png"/>
+        <p>Natural lighting</p>
+    </div>
+    <div class="column" style="background-color:#FFF;">
+        <img width="60" height="60" src="file:///android_asset/hair_black.png"/>
+        <p> Hair back</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="column" style="background-color:#FFF;">
+        <img width="60" height="60" src="file:///android_asset/neutral_expression.png"/>
+        <p>Neutral expression</p>
+    </div>
+    <div class="column" style="background-color:#FFF;">
+        <img width="60" height="60" src="file:///android_asset/without_makeup.png"/>
+        <p>Without makeup</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="column" style="background-color:#FFF;">
+        <img width="60" height="60" src="file:///android_asset/without_glasses.png"/>
+        <p>Without glasses</p>
+    </div>
+    <div class="column" style="background-color:#FFF;">
+        <img width="60" height="60" src="file:///android_asset/facing_light.png"/>
+        <p>Facing the light</p>
+    </div>
+</div>
+
+<p>*This selfie will help to provide the most accurate skincare advice. The image will not be
+    stored and will be deleted after being analyzed.</p>
+
+</body>
+</html>

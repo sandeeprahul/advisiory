@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">AdvisoryService</string>
+
+
+    <string name="introduction">Introduction</string>
+    <string name="sub_intro">Free Skin testing\nProfessional &amp; Personalised Get your skin analysed,pick products as
+    recommended by the experts &amp; follow the regime to get that glow</string>
+    <string name="process">Process</string>
+    <string name="error">An Error Occurred While Loading Data!</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="got_it">Got it</string>
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+    <string name="rupee_symbol">\u20B9</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recommended_products">Recommended Products</string>
+    <string name="about_my_skin">About my skin</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="more_products">More Products</string>
+    <string name="mobile_number">Mobile Number*</string>
+    <string name="first_name">First Name*</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email*</string>
+    <string name="mobile">XXXXXXXXXX</string>
+    <string name="camera_access_required">Camera access is required to display the camera preview.</string>
+    <string name="hint">XXXXXXXXXX</string>
+    <string name="email_hint">abcxyz1234@gmail.com</string>
+    <string name="new_app_update_text">Skin Expert App is not upto date.\nPlease install new app using the notifications received on the tab.\nIn Case notifications is not visible restart the tab and try.\nFor any support please call IT.</string>
+
+    <string name="instruction">
+        For the most accurate results, take the picture with:\n\n
+        A good selfie is key in receiving the best possible skincare advice and products. Learn how to take a good selfie below.\n\n
+        - Natural lighting\n
+        - Hair back\n
+        - Neutral expression\n
+        - Without makeup\n
+        - Without glasses\n
+        -Facing the light\n\n
+*This selfie will help to provide the most accurate skincare advice. The image will not be stored and will be deleted after being analyzed.\n\n
+    </string>
+
+    <string name="data">
+        <![CDATA[
+        <html>
+            <head></head>
+            <body>
+                 <p>For the most accurate results, take the picture with:</p>
+            <p>A good selfie is key in receiving the best possible skincare advice and products. Learn how to take a good selfie below.</p>
+
+            <div class="row">
+              <div class="column" style="background-color:#aaa;">
+                <h2>Column 1</h2>
+                <p>Some text..</p>
+              </div>
+              <div class="column" style="background-color:#bbb;">
+                <h2>Column 2</h2>
+                <p>Some text..</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column" style="background-color:#ccc;">
+                <h2>Column 3</h2>
+                <p>Some text..</p>
+              </div>
+              <div class="column" style="background-color:#ddd;">
+                <h2>Column 4</h2>
+                <p>Some text..</p>
+              </div>
+
+            <ul style="list-style:none; display: flex;flex-flow: column wrap;">
+                <li><img width="40" height="40" src="file:///android_asset/natural_lighting.png"  /> Natural lighting</li>
+                <li><img width="40" height="40" src="file:///android_asset/hair_black.png" /> Hair back</li>
+                <li><img width="40" height="40" src="file:///android_asset/neutral_expression.png" /> Neutral expression</li>
+                <li><img width="40" height="40" src="file:///android_asset/without_makeup.png" /> Without makeup</li>
+                <li><img width="40" height="40" src="file:///android_asset/without_glasses.png" /> Without glasses</li>
+                <li><img width="40" height="40" src="file:///android_asset/facing_light.png" /> Facing the light</li>
+            </ul>
+            <p>*This selfie will help to provide the most accurate skincare advice. The image will not be stored and will be deleted after being analyzed.\n\n</p>
+
+        </body>
+        </html>
+    ]]>
+    </string>
+
+    <string name="skip_selfie">Clicking a selfie is highly recommended for detection of real time closer to actual skin concerns. Could we proceed with a selfie ?</string>
+    <string name="upload_your_selfie">Instructions for a Good Selfie</string>
+    <string name="title_activity_login">Login Activity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Enter Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="gender_header">Gender*</string>
+    <string name="age_text">Age*</string>
+</resources>
